@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:background="#4CAF50"
+    android:layout_height="wrap_content"
+    tools:context="absensi.yac_scanner.MainActivity">
+<LinearLayout
+    android:id="@+id/lin"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/bg"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="270dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_yac"
+        android:background="#FFFF"/>
+</LinearLayout>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Absen"
+        android:background="@drawable/button"
+        android:layout_marginTop="320dp"
+        android:onClick="QrScanner" />
+    <Button
+        android:layout_marginTop="380dp"
+        android:background="@drawable/button"
+        android:id="@+id/hadir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar Hadir"/>
+    <Button
+        android:id="@+id/Profil"
+        android:background="@drawable/button"
+        android:layout_marginTop="440dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profil Member"/>
+    <Button
+        android:background="@drawable/button"
+        android:id="@+id/keluar"
+        android:layout_marginTop="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar"/>
+
+
+</RelativeLayout>
